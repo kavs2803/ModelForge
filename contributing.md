@@ -1,6 +1,6 @@
-# Welcome to the ModelForge Party! 🎉
+# ENTER MODELFORGE
 
-Hey there, fellow code warrior! 🙌 Ready to make some magic happen with ModelForge? Whether it's your first time forking a repo or you're a seasoned coder, we're excited to have you here! This doc will help you join the action. But first, grab some snacks, maybe a bunsamosa (you know you want to), and let’s lay down some ground rules.
+Ready to make some magic happen with ModelForge? Whether it's your first time forking a repo or you're a seasoned coder, we're excited to have you here! This doc will help you join the action. But first, grab some snacks, maybe a bunsamosa (:p), and let’s lay down some ground rules.
 
 ## What is This? 🛠️
 
