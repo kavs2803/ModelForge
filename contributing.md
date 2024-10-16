@@ -16,29 +16,29 @@ This is ModelForge—our low-code ML framework designed to make model-building a
    ```
 
 Keep your forks synced with the main repo. You don't want to be stuck in a merge-conflict meltdown later. 🎭
-
+```bash
 git fetch upstream
 git merge upstream/main
-
+```
 Create Cool Stuff—But Keep it in a Branch! 🌱
 Hack away in a new branch. Create one for each feature, bugfix, or improvement.
-
+```bash
 git checkout -b my-awesome-feature
-
+```
 When you're happy, push it to your fork. Then open a Pull Request and let the magic happen!
-
+```bash
 git push origin my-awesome-feature
-Oh, and your PRs should include a nice description. Tell us what you did and why. Bonus points if it's funny. 🎤
+```
 
 Stay Fresh, Stay Updated 🔄
 If you've been away, sync with the upstream repo before pushing your PR. Stay up to date to avoid any surprises in the merge.
 
-bash
-Copy code
+```bash
 git fetch upstream
 git rebase upstream/main
+```
 Test. Test. Test.
-Your code should be cleaner than your kitchen after hacknight (okay, maybe that’s a low bar). Please test your code before submitting a PR. We've got some automated tests, but you should still make sure your part of the build is solid. 💪
+Please test your code before submitting a PR. We've got some automated tests, but you should still make sure your part of the build is solid. 💪
 
 LICENSE (MIT) 📜
 We’re using the MIT License for this project, so make sure you’re cool with that. Don’t worry—it’s one of the more chill licenses. It basically says, “Do whatever you want, just don’t sue us.”
