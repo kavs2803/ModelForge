@@ -9,86 +9,28 @@ This is ModelForge—our low-code ML framework designed to make model-building a
 
 ## Ground Rules Before the Fun Begins 🧑‍💻
 
-1. **Fork it! Clone it!**  
-   Fork the repo, clone your copy, and fire up your text editor of choice (we recommend VS Code, but you do you!).
+# Participiant: How to Contribute
+Visit the HackNight 6.0 Leaderboard: Browse the leaderboard and choose a repository you'd like to contribute to!
 
-   ```bash
-   git clone https://github.com/yourusername/ModelForge.git
-   ```
+Check for Open Issues: Look for any open issues in the repository. If you find one that interests you, ask to be assigned to it by commenting on the issue.
 
-2.Keep your forks synced with the main repo. You don't want to be stuck in a merge-conflict meltdown later. 🎭
+Setup Your Codebase:
+
+Fork the repository to your GitHub account and copy it's clone URL
+Clone your forked repository to your local machine using Git (make sure it's installed)
+git clone git@github.com:your-username/repo-name.git
+Make Your Changes After cloning and setting up your branch, make the necessary changes to the code in your IDE.
+
+Commit and Push: Commit your changes and push them to your fork:
 ```bash
-git fetch upstream
-git merge upstream/main
+git commit -m "Describe the changes you made"
+git push
 ```
+Alternatively, use VSCode's inbuilt Git source control pane Ctrl+Shift+G if you're unconfortable with a CLI
 
-3.Create a virtual environment, run the following command after cloning the repo
-```bash
-python -m venv venv
-```
+Submit a Pull Request: After pushing your changes, open a pull request to pull changes from your fork to the original repository.
 
-4.Activate the virtual environment
+Get Feedback Wait for a maintainer to review your pull request (PR) and provide feedback.
 
-- Windows:
-  ```bash
-  venv\Scripts\activate
-  ```
-- MacOS:
-  ```bash
-    source venv/bin/activate
-   ```
-
-5.Install required python packages [Make sure virtual environment is running]
-
-```bash
-pip install -r requirements.txt
-```
-
-
-6.Create Cool Stuff—But Keep it in a Branch! 🌱
-Hack away in a new branch. Create one for each feature, bugfix, or improvement.
-```bash
-git checkout -b my-awesome-feature
-```
-
-7. Make Your Changes
-Now, solve the issue! Make your changes in the codebase, implement the fix, feature, or improvement.
-
-7. Stage Your Changes
-After making your changes, you'll need to stage them for committing.
-
-```bash
-Copy code
-git add .
-```
-8. Commit Your Changes
-Once your changes are staged, commit them with a descriptive message that references the issue you're solving.
-
-```bash
-git commit -m "Fixes issue #1:added dropdown"
-```
-9. Push Your Branch to GitHub
-Now, push your branch to your fork on GitHub.
-```bash
-git push origin issue-<issue-number>-fix-description
-```
-For example:
-
-```bash
-git push origin issue-1-fix-dropdown
-```
-10. Open a Pull Request (PR)
-Go to your GitHub repository in your browser.
-Click on the Pull Requests tab.
-Click New Pull Request.
-Choose your branch (named issue-<issue-number>-fix-description).
-Click Create Pull Request to submit it.
-
-
-
-To run the file
-
-```bash
- python main.py <filename>.yaml
-```
+Gain Bounty Points If everything is approved, your issue will be closed, and you'll gain bounty points on the leaderboard!
 
