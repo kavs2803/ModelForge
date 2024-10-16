@@ -18,7 +18,7 @@ Clone your forked repository to your local machine using Git (make sure it's ins
 ```bash
 git clone git@github.com:your-username/repo-name.git
 ```
-4.Make Your Changes** After cloning and setting up your branch, make the necessary changes to the code in your IDE.
+4.**Make Your Changes** After cloning and setting up your branch, make the necessary changes to the code in your IDE.
 
 5.**Commit and Push**: Commit your changes and push them to your fork:
 ```bash
