@@ -6,6 +6,9 @@ Ready to make some magic happen with ModelForge? Whether it's your first time fo
 
 This is ModelForge—our low-code ML framework designed to make model-building as smooth as butter. Your contributions are going to make it even cooler, and hacknights are the perfect time to bring in fresh energy, and here's how you can get started:
 
+
+
+
 ## Ground Rules Before the Fun Begins 🧑‍💻
 
 1. **Fork it! Clone it!**  
@@ -36,5 +39,36 @@ If you've been away, sync with the upstream repo before pushing your PR. Stay up
 ```bash
 git fetch upstream
 git rebase upstream/main
+```
+
+
+## Getting Started
+
+Create a virtual environment, run the following command after cloning the repo
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment
+
+- Windows:
+  ```bash
+  venv\Scripts\activate
+  ```
+- MacOS:
+  ```bash
+    source venv/bin/activate
+   ```
+
+Install required python packages [Make sure virtual environment is running]
+
+```bash
+pip install -r requirements.txt
+```
+
+To run the file
+
+```bash
+ python main.py <filename>.yaml
 ```
 
