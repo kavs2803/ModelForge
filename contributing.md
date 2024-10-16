@@ -37,8 +37,4 @@ If you've been away, sync with the upstream repo before pushing your PR. Stay up
 git fetch upstream
 git rebase upstream/main
 ```
-Test. Test. Test.
-Please test your code before submitting a PR. We've got some automated tests, but you should still make sure your part of the build is solid. 💪
 
-LICENSE (MIT) 📜
-We’re using the MIT License for this project, so make sure you’re cool with that. Don’t worry—it’s one of the more chill licenses. It basically says, “Do whatever you want, just don’t sue us.”
